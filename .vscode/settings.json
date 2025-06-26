@@ -1,0 +1,6 @@
+{
+    "liveServer.settings.port": 5501,
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.inlineSuggest.edits.experimental.enabled": true,
+    "files.autoSave": "afterDelay"
+}

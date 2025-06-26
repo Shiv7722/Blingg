@@ -1,0 +1,129 @@
+/* extra large screen */
+@media (min-width: 1200px) {
+}
+
+/* large screen */
+@media (min-width: 992px) {
+}
+
+/*medium screen */
+
+@media (max-width: 991px) {
+  .overlay-img {
+    left: 50px;
+  }
+
+  .hero-section {
+    margin-top: 40px;
+  }
+
+  .collapse .navbar-nav .nav-item {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+  }
+  .collapse .navbar-nav .basket-item {
+    /* display: flex;
+            justify-content: center;
+            width: 100%;
+            padding: 1rem; */
+    padding-top: 0;
+    /* border: 1px solid black; */
+    height: 4rem;
+  }
+
+  .collapse .navbar-nav .basket-item .basket {
+    /* border: 1px solid black; */
+    height: 5rem;
+    margin-top: 0;
+    padding: 0 2rem;
+  }
+
+  .basket .cart-number {
+    top: 0.2rem;
+    right: 0.8rem;
+  }
+
+  .collapse .navbar-nav .nav-item::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    border: 1px solid #ebdcbf;
+    width: 100%;
+    bottom: -0.5rem;
+  }
+
+  .collapse .navbar-nav .basket-item::after {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 3rem 0 6rem;
+  }
+
+  .unique-text h2 {
+    /* border: 2px solid green; */
+    padding-right: 32rem;
+  }
+
+  .overlay-img {
+    left: 50px;
+  }
+
+  .trending .card i{
+    top: 4rem;
+    right: 4rem;
+    font-weight: 400;
+    position: absolute;
+    color: var(--text-black);
+    font-size: 1rem;
+    /* visibility: hidden; */
+    transition: all 0.5s ease-in-out;
+  }
+}
+
+/* small screen */
+@media (max-width: 576px) {
+   .hero-text h1{
+    font-size:2.5rem;
+   }
+  .hero-text {
+    top: 10%;
+    left: 5%;
+    padding: 0%;
+    width: fit-content;
+  }
+
+  .carousel-inner {
+    padding: 3rem;
+  }
+
+  .unique-text h2 {
+    padding-right: 10rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+  .card-group .card {
+    margin: 1rem 0rem;
+  }
+
+  .trending h3 {
+    margin-top: 1rem;
+  }
+
+  .overlay-img {
+    height: 300px;
+    left: calc(100vw - 80vw);
+    top: 480px;
+    width: 65vw;
+  }
+
+  .unique-img {
+    height: 600px;
+  }
+}
