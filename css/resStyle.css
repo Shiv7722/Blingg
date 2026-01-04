@@ -1,0 +1,192 @@
+/* extra large screen */
+@media (min-width: 1200px) {
+}
+
+/* large screen */
+@media (min-width: 992px) {
+}
+
+/*medium screen */
+
+@media (max-width: 991px) {
+  .overlay-img {
+    left: 50px;
+  }
+
+  .hero-section {
+    margin-top: 40px;
+  }
+
+  .navbar-collapse {
+    background: #fff;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+    max-width: 90vw;
+    left: 50%;
+    transform: translateY(-20%);
+    transform: translateX(5.4%);
+    position: absolute;
+    padding: 1rem 0.5rem 1.5rem 0.5rem; /* Always present */
+    transition: none; /* Remove if not animating */
+  }
+  .navbar-collapse.show {
+    /* Only properties that change when open */
+    top: 100%;
+    /* transform: translateY(50%); */
+
+    /* No need to repeat background, padding, etc. */
+  }
+  .navbar {
+    position: relative;
+  }
+  /* If you use ::before or ::after, define them for .navbar-collapse, not just .show */
+  .navbar-collapse .nav-item::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    border: 1px solid #ebdcbf;
+    width: 0%;
+    bottom: -0.5rem;
+  }
+
+    .navbar-collapse .nav-item:hover::after {
+      width: 100%;
+    }
+
+  .collapse .navbar-nav .basket-item::after {
+    display: none;
+  }
+
+  /* .collapse .navbar-nav .nav-item {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+  } */
+  .collapse .navbar-nav .basket-item {
+    /* display: flex;
+            justify-content: center;
+            width: 100%;
+            padding: 1rem; */
+    padding-top: 0;
+    /* border: 1px solid black; */
+    height: 4rem;
+  }
+
+  .collapse .navbar-nav .basket-item .basket {
+    /* border: 1px solid black; */
+    height: 5rem;
+    margin-top: 0;
+    padding: 0 2rem;
+  }
+
+  /* .navbar-collapse {
+    background: #fff; /* or your desired color */
+    /* z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05); */
+  }
+  .navbar-collapse.show {
+    background: #fff; /* Ensures background when expanded */
+    min-height: fit-content; /* Optional: makes the menu cover the screen */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    /* height: inherit; */
+    width: 100vw;
+    padding-bottom: 2rem;
+  } */
+  .navbar {
+    position: relative;
+  }
+  .basket .cart-number {
+    top: 0.2rem;
+    right: 0.8rem;
+  }
+
+  
+
+  /* .navbar-collapse .show .nav-item::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    border: 1px solid #ebdcbf;
+    width: 100%;
+    bottom: -0.5rem;
+  }
+
+  .collapse .navbar-nav .basket-item::after {
+    display: none;
+  } */
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 3rem 0 6rem;
+  }
+
+  .unique-text h2 {
+    /* border: 2px solid green; */
+    padding-right: 32rem;
+  }
+
+  .overlay-img {
+    left: 50px;
+  }
+
+  .trending .card i{
+    top: 4rem;
+    right: 4rem;
+    font-weight: 400;
+    position: absolute;
+    color: var(--text-black);
+    font-size: 1rem;
+    /* visibility: hidden; */
+    transition: all 0.5s ease-in-out;
+  }
+}
+
+
+/* small screen */
+@media (max-width: 576px) {
+   .hero-text h1{
+    font-size:2.5rem;
+   }
+  .hero-text {
+    top: 10%;
+    left: 5%;
+    padding: 0%;
+    width: fit-content;
+  }
+
+  .carousel-inner {
+    padding: 3rem;
+  }
+
+  .unique-text h2 {
+    padding-right: 10rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+  .card-group .card {
+    margin: 1rem 0rem;
+  }
+
+  .trending h3 {
+    margin-top: 1rem;
+  }
+
+  .overlay-img {
+    height: 300px;
+    left: calc(100vw - 80vw);
+    top: 480px;
+    width: 65vw;
+  }
+
+  .unique-img {
+    height: 600px;
+  }
+}

@@ -1,0 +1,120 @@
+[
+{
+    "id": 1,
+    "name": "sterlin gold",
+    "price": 299,
+    "disPrice": 259,
+    "image": ["Assets/bracelet/bracelet-01-a.jpg","Assets/bracelet/bracelet-01-b.jpg"],
+    "category": "bracelet",
+    "tag": "trending"
+},
+{
+    "id": 2,
+    "name": "golden drops",
+    "price": 199,
+    "disPrice": 179,
+    "image": ["Assets/earrings/earrings-04-a.jpg","Assets/earrings/earrings-04-b.jpg"],
+    "category": "earrings",
+    "tag": "trending"
+},
+{
+    "id": 3,
+    "name": "pearl drops",
+    "price": 99,
+    "disPrice": 89,
+    "image": ["Assets/earrings/earrings-05-a.jpg","Assets/earrings/earrings-05-b.jpg"],
+    "category": "earrings",
+    "tag": "trending"
+},
+{
+    "id": 4,
+    "name": "new sneak",
+    "price": 399,
+    "disPrice": 349,
+    "image": ["Assets/earrings/earrings-06-a.jpg","Assets/earrings/earrings-06-b.jpg"],
+    "category": "earrings",
+    "tag": "trending"
+},
+  {
+    "id": 5,
+    "name": "diamond shine",
+    "price": 499,
+    "disPrice": 459,
+    "image": ["Assets/bracelet/bracelet-02-a.jpg","Assets/bracelet/bracelet-02-c.jpg"],
+    "category": "bracelet",
+    "tag": "best-selling"
+  },
+  {
+    "id": 6,
+    "name": "ruby radiance",
+    "price": 699,
+    "disPrice": 649,
+    "image": ["Assets/necklace/necklace-02-a.jpg","Assets/necklace/necklace-02-b.jpg"],
+    "category": "necklace",
+    "tag": "best-selling"
+  },
+  {
+    "id":7,
+    "name": "sapphire sparkle",
+    "price": 799,
+    "disPrice": 749,
+    "image": ["Assets/necklace/necklace-03-a.jpg","Assets/necklace/necklace-03-b.jpg"],
+    "category": "necklace",
+    "tag": "best-selling"
+  },
+  {
+    "id":8,
+    "name": "pink delight",
+    "price": 599,
+    "disPrice": 549,
+    "image": ["Assets/rings/ring-01-a.jpg","Assets/rings/ring-01-b.jpg"],
+    "category": "ring",
+    "tag": "new-arrival"
+  },
+  {
+    "id": 9,
+    "name": "golden pearl",
+    "price": 899,
+    "disPrice": 849,
+    "image": ["Assets/rings/ring-02-a.jpg","Assets/rings/ring-02-c.jpg"],
+    "category": "ring",
+    "tag": "new-arrival"
+  },
+  {
+    "id": 10,
+    "name": "star light",
+    "price": 349,
+    "disPrice": 299,
+    "image": ["Assets/rings/ring-03-a.jpg","Assets/rings/ring-03-b.jpg"],
+    "category": "ring",
+    "tag": "new-arrival"
+  },
+  
+    {
+    "id": 11,
+    "name": "diamond shine",
+    "price": 599,
+    "disPrice": 549,
+    "image": ["Assets/rings/ring-04-a.jpg","Assets/rings/ring-04-b.jpg"],
+    "category": "ring",
+    "tag": "best-selling"
+  },
+  {
+    "id": 12,
+    "name": "silver shine",
+    "price": 399,
+    "disPrice": 359,
+    "image": ["Assets/rings/ring-05-a.jpg","Assets/rings/ring-05-c.jpg"],
+    "category": "ring",
+    "tag": "new-arrival"
+  }
+,{
+    "id": 13,
+    "name": "emerald allure",
+    "price": 499,
+    "disPrice": 459,
+    "image": ["Assets/rings/ring-06-a.jpg","Assets/rings/ring-06-b.jpg"],
+    "category": "ring",
+    "tag": "new-arrival"
+  }
+]
